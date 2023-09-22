@@ -5,7 +5,7 @@ const Itinerary = [
   {
     time: "6:00 pm",
     event:
-      "Chapter 4 - Guest Arrive at Reception Venue & Cocktail Hour Ends...",
+      "Chapter 4 - Guest Arrive at Reception Venue `&apos;` Cocktail Hour Ends...",
   },
   { time: "6:45pm", event: "Chapter 5 - Dinner Begins" },
   { time: "8:00 pm", event: "Chapter 6 - Buddy Bar Opens..." },
@@ -26,7 +26,7 @@ export default function Home() {
       <div className=" sm:w-full lg:w-3/5 bg-orange-200 lg:py-4 lg:pb-8 pb-8  rounded-lg">
         <header>
           <h1 className="w-full text-center py-4 lg:text-5xl text-3xl font-bold">
-            Alex & Hailey's Wedding Itinerary
+            Alex `&apos;` Hailey's Wedding Itinerary
           </h1>
         </header>
         <div className="mx-4 lg:text-2xl text-xl font-medium">
@@ -43,7 +43,7 @@ export default function Home() {
           </div>
 
           <div>
-            With all our love, <br /> Alex & Hailey
+            With all our love, <br /> Alex `&apos;` Hailey
           </div>
         </div>
         <section>
