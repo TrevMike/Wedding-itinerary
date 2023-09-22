@@ -5,7 +5,7 @@ const Itinerary = [
   {
     time: "6:00 pm",
     event:
-      "Chapter 4 - Guest Arrive at Reception Venue `&apos;` Cocktail Hour Ends...",
+      "Chapter 4 - Guest Arrive at Reception Venue & Cocktail Hour Ends...",
   },
   { time: "6:45pm", event: "Chapter 5 - Dinner Begins" },
   { time: "8:00 pm", event: "Chapter 6 - Buddy Bar Opens..." },
@@ -26,7 +26,7 @@ export default function Home() {
       <div className=" sm:w-full lg:w-3/5 bg-orange-200 lg:py-4 lg:pb-8 pb-8  rounded-lg">
         <header>
           <h1 className="w-full text-center py-4 lg:text-5xl text-3xl font-bold">
-            Alex `&apos;` Hailey's Wedding Itinerary
+            Alex & Hailey&apos;s Wedding Itinerary
           </h1>
         </header>
         <div className="mx-4 lg:text-2xl text-xl font-medium">
@@ -35,15 +35,15 @@ export default function Home() {
             As we gather here today to celebrate love and unity, I want to
             express my deepest gratitude for each and every one of you. Your
             presence here fills our hearts with joy beyond measure. Please enjoy
-            this beautiful day, dance like nobody's watching, and savor every
-            moment. Most importantly, stay safe and take care of one another.
-            Our love for you knows no bounds, and we're incredibly thankful to
-            have you in our lives. Here's to a day filled with love, laughter,
-            and cherished memories.
+            this beautiful day, dance like nobody&apos;s watching, and savor
+            every moment. Most importantly, stay safe and take care of one
+            another. Our love for you knows no bounds, and we&apos;re incredibly
+            thankful to have you in our lives. Here&apos;s to a day filled with
+            love, laughter, and cherished memories.
           </div>
 
           <div>
-            With all our love, <br /> Alex `&apos;` Hailey
+            With all our love, <br /> Alex & Hailey
           </div>
         </div>
         <section>
